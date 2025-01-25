@@ -3,3 +3,19 @@
   background: linear-gradient(to right, #c533ff, #590e85, #2046f0);
 
 }
+
+.button{
+  background: linear-gradient(to right, #c533ff, #590e85, #2046f0);
+  padding: 10px 20px;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease; 
+}
+.button:hover{
+  background: linear-gradient(to left, #c533ff, #590e85, #2046f0);
+  font-weight: bold;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
